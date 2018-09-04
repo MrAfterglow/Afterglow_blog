@@ -1,0 +1,85 @@
+{% extends 'backweb/base.html' %}
+
+
+{% block content %}
+<style>
+.dataStatistic{width:400px;height:200px;border:1px solid #ccc;margin:0 auto;margin:10px;overflow:hidden}
+#cylindrical{width:400px;height:200px;margin-top:-15px}
+#line{width:400px;height:200px;margin-top:-15px}
+#pie{width:400px;height:200px;margin-top:-15px}
+</style>
+<section class="rt_wrap content mCustomScrollbar">
+ <div class="rt_content">
+      <div class="page_title">
+       <h2 class="fl">角色权限</h2>
+      </div>
+     {% if user.is_superuser %}
+      <table class="table">
+
+       <tr>
+        <th>角色</th>
+        <th>权限</th>
+        <th>操作</th>
+        </tr>
+               {% for user in role_all %}
+              <form method="post">
+         <tr>
+        <td class="center"> <input value="{{user.r_name}}" type="hidden" name="role_name"> {{user.r_name}}</td>
+        <td class="center" >
+            {% for i in permission %}
+            <input type="checkbox" name="pers" value="{{i.p_name}}" >
+            {% if i.p_name == 'LISTARTICLE'  %}
+                    查询权限
+               {% endif %}
+               {% if i.p_name == 'ADDARTICLE' %}
+                    添加权限
+               {% endif %}
+               {% if i.p_name == 'EDITARTICLE' %}
+                    编辑权限
+               {% endif %}
+               {% if i.p_name == 'DELARTICLE' %}
+                    删除权限
+               {% endif %}
+            {% endfor %}
+        </td>
+
+
+        <td class="center" >
+         <input type="submit"  value="提交">
+         <input type="submit"  value="删除">
+        </td>
+
+       </tr>
+        </form>
+            {% endfor %}
+          <form method="post">
+       <tr>
+           <td class="center">  <input  name="role_name" placeholder="或者新建一个角色"> </td>
+           <td class="center">
+               {% for i in permission %}
+            <input type="checkbox" name="pers" value="{{i.p_name}}" >
+               {% if i.p_name == 'LISTARTICLE'  %}
+                    查询权限
+               {% endif %}
+               {% if i.p_name == 'ADDARTICLE' %}
+                    添加权限
+               {% endif %}
+               {% if i.p_name == 'EDITARTICLE' %}
+                    编辑权限
+               {% endif %}
+               {% if i.p_name == 'DELARTICLE' %}
+                    删除权限
+               {% endif %}
+            {% endfor %}
+           </td>
+           <td class="center"><input type="submit" > </td>
+       </tr></form>
+      </table>
+             {% else %}
+        <h2 class="fl">你没有权限进入此页面</h2>
+     {% endif %}
+
+ </div>
+</section>
+
+{% endblock %}

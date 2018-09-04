@@ -1,0 +1,103 @@
+{% extends 'backweb/base.html' %}
+
+
+{% block content %}
+<style>
+.dataStatistic{width:400px;height:200px;border:1px solid #ccc;margin:0 auto;margin:10px;overflow:hidden}
+#cylindrical{width:400px;height:200px;margin-top:-15px}
+#line{width:400px;height:200px;margin-top:-15px}
+#pie{width:400px;height:200px;margin-top:-15px}
+</style>
+<section class="rt_wrap content mCustomScrollbar">
+ <div class="rt_content">
+      <div class="page_title">
+       <h2 class="fl">文章列表</h2>
+          {%if 'LISTARTICLE' in user.permission_all %}
+       <a href="{% url 'backweb:addArt' %}" class="fr top_rt_btn add_icon">添加文章</a>
+          {% endif %}
+      </div>
+      <section class="mtb">
+        {%if 'LISTARTICLE' in user.permission_all %}
+       <input type="text" class="textbox textbox_225" placeholder="输入产品关键词或产品货号..."/>
+       <input type="button" value="查询" class="group_btn"/>
+          {% endif %}
+      </section>
+      <table class="table">
+
+       <tr>
+        <th>编码</th>
+        <th>文章标题</th>
+        <th>学习分类</th>
+        <th>慢生活</th>
+        <th>展示</th>
+        <th>推荐</th>
+        <th>修改时间</th>
+        <th>操作</th>
+       </tr>
+          {%if 'LISTARTICLE' in user.permission_all %}
+          <form method="post">
+        {% for articles in page %}
+       <tr>
+        <td >{{articles.id}}</td>
+        <td class="center">{{articles.title}}</td>
+        <td class="center">
+            {% if articles.atype.id != 5 %}
+            {{articles.atype.name}}
+            {% else %}
+            <a title="否" class="link_icon">&#88;</a>
+            {% endif %}
+        </td>
+           <td class="center">
+            {% if articles.atype.id == 5 %}
+            <a title="是" class="link_icon">&#89;</a>
+            {% else %}
+            <a title="否" class="link_icon">&#88;</a>
+            {% endif %}
+        </td>
+           <td class="center">
+            {% if articles.is_show %}
+            <a title="是" class="link_icon">&#89;</a>
+            {% else %}
+            <a title="否" class="link_icon">&#88;</a>
+            {% endif %}
+        </td>
+           <td class="center">
+            {% if articles.is_recommend %}
+            <a title="是" class="link_icon">&#89;</a>
+            {% else %}
+            <a title="否" class="link_icon">&#88;</a>
+            {% endif %}
+        </td>
+        <td class="center">{{articles.oprate_time | date:'Y-m-d h:m:s'}}</td>
+        <td class="center" >
+         <a href="{% url 'blog:content' %}?id={{articles.id}}" title="跳转"  class="link_icon" target="_self">&#118;</a>
+            {% if 'EDITARTICLE' in user.permission_all %}
+         <a href="" title="编辑" class="link_icon">&#101;</a>
+            {% endif %}
+            {% if 'DELARTICLE' in user.permission_all %}
+         <a href="{% url 'backweb:delArt' %}?id={{articles.id}}" title="删除" class="link_icon">&#100;</a>
+            {% endif %}
+        </td>
+       </tr>
+          {% endfor %}
+              </form>
+        {% endif %}
+      </table>
+
+      <aside class="paging">
+          {% if page.has_previous %}
+                <a href=" {% url 'backweb:index' %}?page={{page.previous_page_number}}"> 上一页</a>
+          {% endif %}
+          <a href="{% url 'backweb:index' %}">第一页</a>
+          {% for i in page.paginator.page_range %}
+                <a href="{% url 'backweb:index' %}?page={{i}}"> {{i}}</a>
+          {% endfor %}
+          {% if page.has_next %}
+                <a href="{% url 'backweb:index' %}?page={{page.next_page_number}} "> 下一页</a>
+          {% endif %}
+          <a href="{% url 'backweb:index' %}?page={{page.paginator.num_pages}} ">最后一页</a>
+      </aside>
+ </div>
+</section>
+
+{% endblock %}

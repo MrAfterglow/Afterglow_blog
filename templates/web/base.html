@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="afterGlow的个人博客" />
+    <meta name="description" content="afterGlow的个人博客" />
+    <title>
+        {% block title %}
+        afterGlow的个人博客
+        {% endblock %}
+    </title>
+    {% block css %}
+        <link href='/static/web/css/base.css' rel="stylesheet">
+    {% endblock %}
+    {% block other_css %}
+        <link href="/static/web/css/index.css" rel="stylesheet">
+    {% endblock %}
+    {% block js %}
+    　　<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="/static/web/js/scrollReveal.js"></script>
+    {% endblock %}
+</head>
+<body>
+{% block header %}
+<header>
+  <div class="logo" data-scroll-reveal="enter right over 1s"><img src="/static/web/images/logo.png" style="height: 60px;width: 342px"></a></div>
+  <nav class="topnav" data-scroll-reveal="enter bottom over 0.5s after 0.5s" >
+      <a href="{% url 'blog:index' %}" > <span>首页</span><span class="en">Home</span></a>
+      <a href="{% url 'blog:dont_stop_learn' %}"><span>学无止境</span><span class="en">Learn</span></a>
+      <a href="{% url 'blog:slow_life' %}"><span>慢生活</span><span class="en">Life</span></a>
+      <a href="{% url 'blog:about_me' %}"><span>关于我</span><span class="en">About</span></a>
+      <a href=""><span>留言</span><span class="en">Saying</span></a> </nav>
+</header>
+{% endblock %}
+{% block content %}
+
+{% endblock %}
+</body>
+<footer>
+Design by DanceSmile <a href="{% url 'backweb:index' %}">进入网站后台</a>
+</footer>
+</html>

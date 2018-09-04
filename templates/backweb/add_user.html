@@ -1,0 +1,46 @@
+{% extends 'backweb/base.html' %}
+
+
+{% block content %}
+<section class="rt_wrap content mCustomScrollbar">
+ <div class="rt_content">
+      <div class="page_title">
+       <h2 class="fl">添加用户</h2>
+      </div>
+     {% if user.is_superuser %}
+     <section>
+      <form method="post" enctype="multipart/form-data">
+      <ul class="ulColumn2">
+       <li>
+        <span class="item_name" style="width:120px;">用户名</span>
+        <input type="text" class="textbox textbox_295" name="username" placeholder="请输入用户名"/>
+
+       </li>
+       <li>
+        <span class="item_name" style="width:120px;">密码</span>
+        <input type="text" class="textbox" name="password1" placeholder="请输入密码"/>
+
+       </li>
+       <li>
+        <span class="item_name" style="width:120px;">确认密码</span>
+        <input type="text" class="textbox" name="password2" placeholder="请再次输入密码"/>
+
+       </li>
+
+          <li>
+        <span class="item_name" style="width:120px;"> </span>
+        <input type="submit" class="link_btn"/>
+       </li>
+
+        <li>
+            {{error}}
+        </li>
+      </ul>
+      </form>
+     </section>
+     {% else %}
+        <h2 class="fl">你没有权限进入此页面</h2>
+     {% endif %}
+ </div>
+</section>
+{% endblock %}

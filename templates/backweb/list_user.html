@@ -1,0 +1,63 @@
+{% extends 'backweb/base.html' %}
+
+
+{% block content %}
+<style>
+.dataStatistic{width:400px;height:200px;border:1px solid #ccc;margin:0 auto;margin:10px;overflow:hidden}
+#cylindrical{width:400px;height:200px;margin-top:-15px}
+#line{width:400px;height:200px;margin-top:-15px}
+#pie{width:400px;height:200px;margin-top:-15px}
+</style>
+<section class="rt_wrap content mCustomScrollbar">
+ <div class="rt_content">
+      <div class="page_title">
+       <h2 class="fl">用户列表</h2>
+          {% if user.is_superuser %}
+       <a href="{% url 'backweb:addArt' %}" class="fr top_rt_btn add_icon">添加用户</a>
+      </div>
+      <section class="mtb">
+
+
+      </section>
+      <table class="table">
+
+       <tr>
+        <th>编号</th>
+        <th>用户名</th>
+        <th>超管</th>
+        <th>角色</th>
+        <th>操作</th>
+
+       </tr>
+          <form method="post">
+        {% for user in users %}
+       <tr>
+        <td class="center">{{user.id}}</td>
+        <td class="center">{{user.username}}</td>
+        <td class="center">
+            {% if user.is_superuser %}
+                是
+            {% else %}
+                否
+            {% endif %}
+        </td>
+        <td class="center">{{user.u_r.r_name}}</td>
+
+
+        <td class="center" >
+         <a href="http://www.mycodes.net" title="预览" class="link_icon" target="_blank">&#118;</a>
+         <a href="{% url 'backweb:user_role' %}" title="编辑" class="link_icon">&#101;</a>
+         <a href="{% url 'backweb:delArt' %}?id={{articles.id}}" title="删除" class="link_icon">&#100;</a>
+        </td>
+       </tr>
+          {% endfor %}
+              </form>
+      </table>
+             {% else %}
+        <h2 class="fl">你没有权限进入此页面</h2>
+     {% endif %}
+
+ </div>
+</section>
+
+{% endblock %}

@@ -1,0 +1,61 @@
+{% extends './base.html' %}
+
+{% block other_css %}
+
+<link href="/static/web/css/about.css" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+<article>
+      <div class="container">
+    <div class="banner">
+      <p data-scroll-reveal="enter top over 2s">我们不停的翻弄着回忆，却再也找不回那时的自己</p>
+      <p data-scroll-reveal="enter left over 2s after 1s">人生，是一场盛大的遇见。若你懂得，就请珍惜。</p>
+      <p data-scroll-reveal="enter bottom over 2s after 2s">无论下多久的雨，最后都会有彩虹；无论你多么悲伤，要相信幸福在前方等候.</p>
+    </div>
+    <!--<div class="memorial_day">-->
+      <!--<div class="time_axis"></div>-->
+      <!--<ul>-->
+        <!--<li class="n1"><a href="/">前端入行</a>-->
+          <!--<div class="dateview">2009</div>-->
+        <!--</li>-->
+        <!--<li class="n2"><a href="/">创建个人博客</a>-->
+          <!--<div class="dateview">2011-01-12</div>-->
+        <!--</li>-->
+        <!--<li class="n3"><a href="/">分享第一个博客模板</a>-->
+          <!--<div class="dateview">2013-06-08</div>-->
+        <!--</li>-->
+        <!--<li class="n4"><a href="/">制作第一个html5模板</a>-->
+          <!--<div class="dateview">2013-08-08</div>-->
+        <!--</li>-->
+        <!--<li class="n5"><a href="/">模板更换为时间轴</a>-->
+          <!--<div class="dateview">2017-09-08</div>-->
+        <!--</li>-->
+      <!--</ul>-->
+    <!--</div>-->
+    <div class="about left">
+  <h2>{{article.title}}</h2>
+    <ul>
+        <p>
+      {{article.content|safe}}
+        </p>
+<!--<p>-->
+<!--</p>-->
+<!--<p>-->
+<!--</p>-->
+<!--<p>-->
+<!--</p>-->
+    </ul>
+
+</div>
+  </div>
+
+</article>
+<script>
+	if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
+		(function(){
+			window.scrollReveal = new scrollReveal({reset: true});
+		})();
+	};
+</script>
+{% endblock %}

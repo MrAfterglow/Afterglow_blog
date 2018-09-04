@@ -1,0 +1,66 @@
+{% extends './base.html' %}
+
+{% block other_css %}
+
+<link href="/static/web/css/about.css" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+<article>
+  <div class="container">
+    <div class="banner">
+      <p data-scroll-reveal="enter top over 2s">我们不停的翻弄着回忆，却再也找不回那时的自己</p>
+      <p data-scroll-reveal="enter left over 2s after 1s">人生，是一场盛大的遇见。若你懂得，就请珍惜。</p>
+      <p data-scroll-reveal="enter bottom over 2s after 2s">无论下多久的雨，最后都会有彩虹；无论你多么悲伤，要相信幸福在前方等候.</p>
+    </div>
+    <div class="memorial_day">
+      <div class="time_axis"></div>
+      <ul>
+        <li class="n1"><a href="/">开始程序员之路</a>
+          <div class="dateview">2015</div>
+        </li>
+        <li class="n2"><a href="/">创建此博客</a>
+          <div class="dateview">2018-6-12</div>
+        </li>
+        <li class="n3"><a href="/">分享第一个博客</a>
+          <div class="dateview">2018-06-20</div>
+        </li>
+        <li class="n4"><a href="/">分享第一个慢生活</a>
+          <div class="dateview">2018-08-08</div>
+        </li>
+        <li class="n5"><a href="/">未来路还很长很长</a>
+          <div class="dateview">2018-08-21</div>
+        </li>
+      </ul>
+    </div>
+    <div class="about left">
+  <h2>Just about me</h2>
+    <ul> 
+     <p>
+
+     </p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+    </ul>
+    <h2>About my blog</h2>
+    <p>域  名：www.afterglow.wang 创建于2018年6月12日 </p>
+    <p>服务器：腾讯云服务器
+    <p>应用：Python   Django   MySQL   Ajax   Postman   restful</p>
+
+
+</div>
+  </div>
+  </aside>
+</article>
+<script>
+	if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
+		(function(){
+			window.scrollReveal = new scrollReveal({reset: true});
+		})();
+	};
+</script>
+{% endblock %}

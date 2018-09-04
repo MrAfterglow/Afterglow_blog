@@ -1,0 +1,66 @@
+{% extends 'backweb/base.html' %}
+
+
+{% block content %}
+<style>
+.dataStatistic{width:400px;height:200px;border:1px solid #ccc;margin:0 auto;margin:10px;overflow:hidden}
+#cylindrical{width:400px;height:200px;margin-top:-15px}
+#line{width:400px;height:200px;margin-top:-15px}
+#pie{width:400px;height:200px;margin-top:-15px}
+</style>
+<section class="rt_wrap content mCustomScrollbar">
+ <div class="rt_content">
+      <div class="page_title">
+            {% if user.is_superuser %}
+       <h2 class="fl">用户角色</h2>
+
+       <a href="{% url 'backweb:add_user' %}" class="fr top_rt_btn add_icon">添加用户</a>
+      </div>
+      <section class="mtb">
+       <select class="select">
+        <option>下拉菜单</option>
+        <option>菜单1</option>
+       </select>
+       <input type="text" class="textbox textbox_225" placeholder="输入产品关键词或产品货号..."/>
+       <input type="button" value="查询" class="group_btn"/>
+      </section>
+      <table class="table">
+
+       <tr>
+        <th>用户</th>
+        <th>角色</th>
+
+       </tr>
+          <form method="post">
+
+       <tr>
+
+        <td class="center">
+            <select name="user" >
+                {% for i in users %}
+                <option value="{{i.id}}">{{i.username}}</option>
+                {% endfor %}}
+            </select>
+        </td>
+
+        <td class="center">
+            <select name="role">
+                {% for i in roles %}
+                <option value="{{i.id}}">{{i.r_name}}</option>
+                {% endfor %}}
+            </select>
+        </td>
+       </tr>
+
+
+      </table>
+<input class="group_btn" type="submit">
+          </form>
+     {% else %}
+
+        <h2 class="fl">你没有权限进入此页面</h2>
+     {% endif %}
+ </div>
+</section>
+
+{% endblock %}
