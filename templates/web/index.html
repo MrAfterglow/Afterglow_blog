@@ -38,7 +38,7 @@
                   <div class="cbp_tmlabel" data-scroll-reveal="enter right over 1s" >
                      <h2>{{i.title}}</h2>
                       <p><span class="blogpic"><a href="{% url 'blog:content' %}?id={{i.id}}"><img src=" /media/{{i.image_url }}"></a></span>{{i.desc}}</p>
-                             <a href="/" target="_blank" class="readmore">查看全文</a>
+                             <a href="{% url 'blog:content' %}?id={{i.id}}" target="_blank" class="readmore">查看全文</a>
                   </div>
 
                </li>

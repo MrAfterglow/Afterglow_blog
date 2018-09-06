@@ -14,5 +14,6 @@ urlpatterns = [
     url(r'mumble/',views.mumble,name='mumble'),
     url(r'dont_stop_learn/',views.dont_stop_learn,name='dont_stop_learn'),
     url(r'content/',views.content,name='content'),
+
 ]
 urlpatterns+=router.urls

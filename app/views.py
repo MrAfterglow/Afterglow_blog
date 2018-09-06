@@ -23,7 +23,7 @@ class ArticleSource(mixins.ListModelMixin, #查询所有学生
 
 def index(request):
     if request.method=="GET":
-        all_article=Article.objects.all().order_by('-id')
+        all_article=Article.objects.filter(is_read=True).order_by('-id')
 
 
         return render(request,'web/index.html',{'all_article':all_article})
@@ -49,3 +49,4 @@ def content(request):
         id=request.GET.get('id')
         article=Article.objects.get(id=id)
         return render(request,'web/content.html',{'article':article})
+

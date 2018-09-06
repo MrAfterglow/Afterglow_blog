@@ -16,15 +16,14 @@ class AType(models.Model):
 class Article(models.Model):
     title= models.CharField(max_length=15,null=False)
     desc=models.CharField(max_length=50,null=False)
-    is_show=models.BooleanField(default=False)
+    is_read = models.BooleanField(default=True)
     is_recommend=models.BooleanField(default=False)
     is_learn=models.BooleanField(default=True)
-    # is_life=models.BooleanField(default=False)
     content=UEditorField(default=True)
     image_url=models.ImageField(upload_to='upload',null=True)
-    is_read=models.BooleanField(default=True)
 
-    atype=models.ForeignKey(AType)
+
+    atype=models.ForeignKey(AType,null=True)
 
     create_time=models.DateTimeField(auto_now_add=True)
     oprate_time=models.DateTimeField(auto_now=True)

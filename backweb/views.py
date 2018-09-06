@@ -56,7 +56,7 @@ def addArt(request):
         return render(request,'backweb/article_detail.html',{'types':type})
 
     if request.method=="POST":
-        content=request.POST.get('content')
+        content=request.POST.get('contents')
         title=request.POST.get('title')
         a_type=request.POST.get('a_type')
         desc=request.POST.get('desc')
@@ -203,4 +203,6 @@ def user_role(requset):
         return  HttpResponseRedirect(reverse('backweb:list_user'))
 
 
-#markdown
+def change_is_read(request):
+    if request.method=="GET":
+        pass

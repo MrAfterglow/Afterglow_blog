@@ -24,7 +24,7 @@ urlpatterns = [
     url(r'list_user/',views.list_user,name='list_user'),
     url(r'role_premission/',views.role_premission,name='role_premission'),  #角色和权限关系
     url(r'user_role/',views.user_role,name='user_role'), #用户角色管理
-
+    url(r'change_is_read/',views.change_is_read,name='change_is_read'),
 
 
 ]

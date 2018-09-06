@@ -27,8 +27,7 @@
        <tr>
         <th>编码</th>
         <th>文章标题</th>
-        <th>学习分类</th>
-        <th>慢生活</th>
+        <th>分类</th>
         <th>展示</th>
         <th>推荐</th>
         <th>修改时间</th>
@@ -38,29 +37,31 @@
           <form method="post">
         {% for articles in page %}
        <tr>
+
         <td >{{articles.id}}</td>
+
         <td class="center">{{articles.title}}</td>
+
         <td class="center">
             {% if articles.atype.id != 5 %}
             {{articles.atype.name}}
             {% else %}
-            <a title="否" class="link_icon">&#88;</a>
+            <a title="否" >慢生活</a>
             {% endif %}
         </td>
-           <td class="center">
-            {% if articles.atype.id == 5 %}
-            <a title="是" class="link_icon">&#89;</a>
+
+
+
+           <td class="center" id="change_is_show">
+
+            {% if articles.is_read %}
+            <a title="是" onclick="change_status(  )" class="link_icon">&#89; </a>
             {% else %}
-            <a title="否" class="link_icon">&#88;</a>
+            <a title="否" href="" class="link_icon">&#88; </a>
             {% endif %}
+
         </td>
-           <td class="center">
-            {% if articles.is_show %}
-            <a title="是" class="link_icon">&#89;</a>
-            {% else %}
-            <a title="否" class="link_icon">&#88;</a>
-            {% endif %}
-        </td>
+
            <td class="center">
             {% if articles.is_recommend %}
             <a title="是" class="link_icon">&#89;</a>
@@ -68,6 +69,7 @@
             <a title="否" class="link_icon">&#88;</a>
             {% endif %}
         </td>
+
         <td class="center">{{articles.oprate_time | date:'Y-m-d h:m:s'}}</td>
         <td class="center" >
          <a href="{% url 'blog:content' %}?id={{articles.id}}" title="跳转"  class="link_icon" target="_self">&#118;</a>
@@ -100,4 +102,19 @@
  </div>
 </section>
 
+<script>
+    function change_status(article_id,type) {
+        $.ajax({
+            url:'/backweb/change_is_read/',
+            type:'POST',
+            datatype:'json',
+            data:{'article_id':article_id,'type':type},
+            success:function (data) {
+                if (data.code==200){
+
+                }
+            }
+        })
+    }
+</script>
 {% endblock %}

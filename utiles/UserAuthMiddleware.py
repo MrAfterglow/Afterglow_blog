@@ -12,6 +12,8 @@ class AuthMiddleWare(MiddlewareMixin):
         if re.match(r'/backweb/(\S+)', path):
             if path=='/backweb/my_login/' :
                 return None #当 当前地址就是login的时候，说明已近验证过下面两条，都不符合，需要登录了。
+            if path=='/backweb/my_register/' :
+                return None #当 当前地址就是login的时候，说明已近验证过下面两条，都不符合，需要登录了。
             session_id=request.COOKIES.get('session_id') #本地没有cookie
             if not session_id :
                 return HttpResponseRedirect(reverse('backweb:my_login'))
