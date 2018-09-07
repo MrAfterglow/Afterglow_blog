@@ -2,6 +2,30 @@
 
 
 {% block content %}
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script type="text/javascript">
+        function change_status(art_id,type) {
+            $.ajax({
+                url:'/backweb/change_is_read/',
+                type:'POST',
+                datatype:'json',
+                data:{'art_id':art_id,'type':type},
+                success:function (data) {
+                    if (data.code==200){
+                        id= '#' + type+ art_id + ' a'
+                        val = $(id).html()
+                        if (val=='Y'){
+                            $(id).html('&#88;')
+                        } else {
+                            $(id).html('&#89;')
+                        }
+                    }else if (data.code==1001) {
+                        alert(data.msg)
+                    }
+                }
+            })
+        }
+</script>
 <style>
 .dataStatistic{width:400px;height:200px;border:1px solid #ccc;margin:0 auto;margin:10px;overflow:hidden}
 #cylindrical{width:400px;height:200px;margin-top:-15px}
@@ -18,7 +42,7 @@
       </div>
       <section class="mtb">
         {%if 'LISTARTICLE' in user.permission_all %}
-       <input type="text" class="textbox textbox_225" placeholder="输入产品关键词或产品货号..."/>
+       <input type="text" class="textbox textbox_225" placeholder="输入文章关键字或id查询哦..."/>
        <input type="button" value="查询" class="group_btn"/>
           {% endif %}
       </section>
@@ -52,21 +76,21 @@
 
 
 
-           <td class="center" id="change_is_show">
+           <td class="center" id="is_read{{articles.id}}">
 
             {% if articles.is_read %}
-            <a title="是" onclick="change_status(  )" class="link_icon">&#89; </a>
+            <a title="是"  onclick="change_status( {{articles.id}} ,'is_read')"  class="link_icon">&#89;</a>
             {% else %}
-            <a title="否" href="" class="link_icon">&#88; </a>
+            <a title="否" onclick="change_status( {{articles.id}} ,'is_read')" class="link_icon">&#88;</a>
             {% endif %}
 
         </td>
 
-           <td class="center">
+           <td class="center" id="is_recommend{{articles.id}}">
             {% if articles.is_recommend %}
-            <a title="是" class="link_icon">&#89;</a>
+            <a title="是" onclick="change_status( {{articles.id}} ,'is_recommend')"  class="link_icon">&#89;</a>
             {% else %}
-            <a title="否" class="link_icon">&#88;</a>
+            <a title="否" onclick="change_status( {{articles.id}} ,'is_recommend')"  class="link_icon">&#88;</a>
             {% endif %}
         </td>
 
@@ -102,19 +126,5 @@
  </div>
 </section>
 
-<script>
-    function change_status(article_id,type) {
-        $.ajax({
-            url:'/backweb/change_is_read/',
-            type:'POST',
-            datatype:'json',
-            data:{'article_id':article_id,'type':type},
-            success:function (data) {
-                if (data.code==200){
 
-                }
-            }
-        })
-    }
-</script>
 {% endblock %}

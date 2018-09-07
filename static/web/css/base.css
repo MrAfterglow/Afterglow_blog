@@ -2,7 +2,7 @@
 /* 共用css */
 * { margin: 0; padding: 0 }
 body { font: 14px "微软雅黑", Arial, Helvetica, sans-serif;
-    background: url(../images/top2.jpg) no-repeat center top #7d461f;
+    background: url(../images/index.jpg) no-repeat center top #7d461f;
     color: #fff ;
     background-attachment: fixed;}
 
@@ -11,7 +11,7 @@ ul, li { list-style: none; }
 /*默认链接颜色 */
 a:link, a:visited, a:active { text-decoration: none; color: #ee626e
 }
-a:hover { text-decoration: none; color: #307698; }
+a:hover { text-decoration: none; color: #e47090; }
 .clear { clear: both; }
 .blank { height: 8px; overflow: hidden; width: 100%; margin: auto; clear: both }
 .f_l { float: left }
@@ -26,7 +26,7 @@ nav a { position: relative; display: inline-block; font-size: 23px; margin-right
 .topnav a:hover span:last-child, .topnav a:focus span:last-child { opacity: 1; -webkit-transform: translateY(0%); -moz-transform: translateY(0%); transform: translateY(0%); }
 .en { color: #fff; font-size: 12px; z-index: 1; display: block; }/* ie */
 article { background: url(../images/articlebg.png) repeat; }
-.container { background-color:rgb(238,238,238); overflow: hidden; margin: 20px; box-shadow: #f4e9b1 0px 1px 10px; }
+.container { background-color: rgb(209, 186, 170); overflow: hidden; margin: 20px; box-shadow: #f4e9b1 0px 1px 10px; }
 footer { text-align: center; padding: 20px 0 }
 .page{ margin:20px 0 ; text-align:center; width:100%;overflow: hidden;}
 .page a b {color: #aee1ff;}

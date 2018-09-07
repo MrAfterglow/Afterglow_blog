@@ -5,4 +5,6 @@ from backweb.models import Article
 class ArticleSerializer(serializers.ModelSerializer):
     class Meta:
         model = Article
-        fields = ['title', 'desc', 'is_show', 'is_recommend','content','image_url','oprate_time']
+        fields = ['id','title', 'desc', 'is_read', 'is_recommend',
+                  # 'content',
+                  'image_url','oprate_time']

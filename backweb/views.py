@@ -2,7 +2,7 @@ import sys
 from django.contrib import auth
 from django.core.paginator import Paginator
 from django.shortcuts import render
-from django.http import HttpResponseRedirect
+from django.http import HttpResponseRedirect,JsonResponse
 import random
 from datetime import datetime,timedelta
 # Create your views here.
@@ -204,5 +204,16 @@ def user_role(requset):
 
 
 def change_is_read(request):
-    if request.method=="GET":
-        pass
+    if request.method=="POST":
+        art_id= int(request.POST.get('art_id'))
+        type = request.POST.get('type')
+        art = Article.objects.get(id=art_id)
+        if type=='is_read':
+            art.is_read = not art.is_read
+        else:
+            rec_count = Article.objects.filter(is_recommend=True)
+            if  art.is_recommend == False and len(rec_count)>=3:
+                return JsonResponse({'code': 1001, 'msg': '最多有三篇推荐文章哦'})
+            art.is_recommend = not art.is_recommend
+        art.save()
+        return JsonResponse({'code':200,})

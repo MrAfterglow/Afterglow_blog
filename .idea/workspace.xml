@@ -2,20 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd7de22f-0480-4856-ba59-0da425866033" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/web/images/5817.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/web/images/index.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app_serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app_serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backweb/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/backweb/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backweb/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backweb/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backweb/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backweb/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_day05_blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_day05_blog/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/backweb/article_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/backweb/article_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/web/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/web/css/about.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/web/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/web/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/web/images/top2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/web/images/index2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/backweb/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/backweb/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/backweb/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/backweb/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/backweb/list_user.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/backweb/list_user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/web/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/web/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/web/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/web/content.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/web/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utiles/UserAuthMiddleware.py" beforeDir="false" afterPath="$PROJECT_DIR$/utiles/UserAuthMiddleware.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +25,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/django_day05_blog$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1536149198449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Afterglow_blog$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1536239843319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Afterglow_blog$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1536325101612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/django_day05_blog$views.coverage" NAME="views Coverage Results" MODIFIED="1534141663887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backweb" />
   </component>
   <component name="DatabaseView">
@@ -108,33 +108,43 @@
     <session id="-1152741735">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="3" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="15" />
-          <entry key="py" value="19" />
+          <entry key="css" value="4" />
+          <entry key="html" value="30" />
+          <entry key="jpg" value="3" />
+          <entry key="png" value="1" />
+          <entry key="py" value="50" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="15" />
-          <entry key="Python" value="19" />
+          <entry key="CSS" value="4" />
+          <entry key="HTML" value="30" />
+          <entry key="Image" value="4" />
+          <entry key="Python" value="50" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="431" />
-          <entry key="py" value="114" />
+          <entry key="Python Console" value="47" />
+          <entry key="css" value="55" />
+          <entry key="html" value="1412" />
+          <entry key="py" value="726" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="431" />
-          <entry key="Python" value="114" />
+          <entry key="CSS" value="55" />
+          <entry key="HTML" value="1412" />
+          <entry key="Python" value="773" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -143,31 +153,42 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backweb/views.py">
+        <entry file="file://$PROJECT_DIR$/static/web/css/about.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="998">
-              <caret line="207" column="12" selection-start-line="207" selection-start-column="12" selection-end-line="207" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-                <marker date="1536238713603" expanded="true" signature="1599:1604" ph="..." />
-                <marker date="1536238713603" expanded="true" signature="2158:2163" ph="..." />
-                <marker date="1536238713603" expanded="true" signature="2379:2384" ph="..." />
-                <marker date="1536238713603" expanded="true" signature="3192:3197" ph="..." />
-                <marker date="1536238713603" expanded="true" signature="4355:4360" ph="..." />
-                <marker date="1536238713603" expanded="true" signature="5188:5193" ph="..." />
-                <marker date="1536238713603" expanded="true" signature="5356:5361" ph="..." />
-                <marker date="1536238713603" expanded="true" signature="6037:6042" ph="..." />
-                <marker date="1536238713603" expanded="true" signature="6556:6600" ph="..." />
-              </folding>
+            <state relative-caret-position="780">
+              <caret line="106" column="38" selection-start-line="106" selection-start-column="38" selection-end-line="106" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/web/css/base.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/web/content.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/web/images/index2.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backweb/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+            <state relative-caret-position="525">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -175,20 +196,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backweb/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="26" column="24" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/backweb/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
-              <caret line="113" selection-start-line="113" selection-end-line="113" />
+            <state relative-caret-position="75">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -202,6 +211,12 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>textbox</find>
+      <find>5817</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -227,29 +242,30 @@
         <option value="$PROJECT_DIR$/templates/web/gbook.html" />
         <option value="$PROJECT_DIR$/templates/web/mumble.html" />
         <option value="$PROJECT_DIR$/static/web/css/learn.css" />
-        <option value="$PROJECT_DIR$/app/app_serializers.py" />
         <option value="$PROJECT_DIR$/utiles/ReturnRenderer.py" />
         <option value="$PROJECT_DIR$/templates/web/content.html.py" />
-        <option value="$PROJECT_DIR$/static/web/css/base.css" />
         <option value="$PROJECT_DIR$/templates/web/about.html" />
-        <option value="$PROJECT_DIR$/templates/web/content.html" />
         <option value="$PROJECT_DIR$/templates/web/learn.html" />
         <option value="$PROJECT_DIR$/templates/web/slow_life.html" />
-        <option value="$PROJECT_DIR$/templates/web/base.html" />
         <option value="$PROJECT_DIR$/django_day05_blog/urls.py" />
         <option value="$PROJECT_DIR$/requiement.txt" />
         <option value="$PROJECT_DIR$/templates/backweb/article_detail.html" />
         <option value="$PROJECT_DIR$/django_day05_blog/settings.py" />
         <option value="$PROJECT_DIR$/utiles/UserAuthMiddleware.py" />
-        <option value="$PROJECT_DIR$/templates/web/index.html" />
         <option value="$PROJECT_DIR$/templates/backweb/list_user.html" />
-        <option value="$PROJECT_DIR$/templates/backweb/base.html" />
         <option value="$PROJECT_DIR$/app/views.py" />
         <option value="$PROJECT_DIR$/app/urls.py" />
         <option value="$PROJECT_DIR$/backweb/urls.py" />
-        <option value="$PROJECT_DIR$/backweb/views.py" />
+        <option value="$PROJECT_DIR$/templates/web/base.html" />
+        <option value="$PROJECT_DIR$/app/app_serializers.py" />
+        <option value="$PROJECT_DIR$/templates/web/index.html" />
         <option value="$PROJECT_DIR$/backweb/models.py" />
         <option value="$PROJECT_DIR$/templates/backweb/index.html" />
+        <option value="$PROJECT_DIR$/backweb/views.py" />
+        <option value="$PROJECT_DIR$/templates/backweb/base.html" />
+        <option value="$PROJECT_DIR$/static/web/css/about.css" />
+        <option value="$PROJECT_DIR$/templates/web/content.html" />
+        <option value="$PROJECT_DIR$/static/web/css/base.css" />
       </list>
     </option>
   </component>
@@ -259,7 +275,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="399" />
     <option name="y" value="9" />
     <option name="width" value="1225" />
@@ -273,7 +289,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -284,28 +299,32 @@
             <path>
               <item name="Afterglow_blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="Afterglow_blog" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Afterglow_blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="Afterglow_blog" type="462c0819:PsiDirectoryNode" />
-              <item name="backweb" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Afterglow_blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="Afterglow_blog" type="462c0819:PsiDirectoryNode" />
-              <item name="django_day05_blog" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Afterglow_blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Afterglow_blog" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Afterglow_blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="Afterglow_blog" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Afterglow_blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Afterglow_blog" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="backweb" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Afterglow_blog" type="b2602c69:ProjectViewProjectNode" />
@@ -313,15 +332,11 @@
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Afterglow_blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Afterglow_blog" type="462c0819:PsiDirectoryNode" />
-              <item name="utiles" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -338,6 +353,7 @@
       <recent name="E:\wordspace\django_day05_blog\templates\web" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\wordspace\Afterglow_blog\static\web\images" />
       <recent name="E:\wordspace\Afterglow_blog\templates\backweb" />
       <recent name="E:\wordspace\django_day05_blog\static\web\images" />
       <recent name="E:\wordspace\django_day05_blog\static\backweb" />
@@ -403,25 +419,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="399" y="9" width="1225" height="1042" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.09488273" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.15622318" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Python Console" order="0" weight="0.32790446" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32899022" />
       <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Find" order="4" weight="0.32745314" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.1606949" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.57111835" />
-      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.19761129" />
-      <window_info anchor="bottom" id="TODO" order="10" weight="0.3286334" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32681867" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.06297503" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.19761129" />
+      <window_info anchor="bottom" id="TODO" order="9" weight="0.3286334" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="12" visible="true" weight="0.19845645" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -435,17 +451,6 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/utiles/UserAuthMiddleware.py</url>
-          <line>25</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
       <expression>
@@ -456,43 +461,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/backweb/user_role.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/backweb/add_user.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/backweb/role_premission.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/backweb/register.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/backweb/login.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/backweb/article_detail.html___jb_tmp___" />
-    <entry file="file://$PROJECT_DIR$/static/web/images/t03.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/web/images/top2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/web/images/s1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/web/images/photos2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/web/images/banner_top.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/web/images/dtime.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/web/images/girl.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/web/images/logo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -531,37 +499,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
           <caret line="12" column="109" lean-forward="true" selection-start-line="12" selection-start-column="109" selection-end-line="12" selection-end-column="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/web/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="22" column="64" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/web/gbook.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/web/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1450">
-          <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/web/content.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1325">
-          <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/django_day05_blog/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="55" lean-forward="true" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -605,30 +542,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/web/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utiles/UserAuthMiddleware.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/backweb/change_article.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="40" column="66" lean-forward="true" selection-start-line="40" selection-start-column="66" selection-end-line="40" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/backweb/change_article.html" />
     <entry file="file://$PROJECT_DIR$/templates/backweb/list_user.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1175">
@@ -636,12 +550,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/web/index.html">
+    <entry file="file://$PROJECT_DIR$/app/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://E:/env/djenv/Lib/site-packages/rest_framework/mixins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+        <state relative-caret-position="468">
+          <caret line="86" column="13" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://E:/env/djenv/Lib/site-packages/rest_framework/routers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/env/djenv/Lib/site-packages/rest_framework/generics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/django_day05_blog/settings.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -650,70 +584,143 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://E:/env/djenv/Lib/site-packages/django/conf/urls/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django_day05_blog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utiles/UserAuthMiddleware.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utiles/ReturnRenderer.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app_serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="75">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backweb/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-375">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backweb/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="998">
-          <caret line="207" column="12" selection-start-line="207" selection-start-column="12" selection-end-line="207" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <marker date="1536238713603" expanded="true" signature="1599:1604" ph="..." />
-            <marker date="1536238713603" expanded="true" signature="2158:2163" ph="..." />
-            <marker date="1536238713603" expanded="true" signature="2379:2384" ph="..." />
-            <marker date="1536238713603" expanded="true" signature="3192:3197" ph="..." />
-            <marker date="1536238713603" expanded="true" signature="4355:4360" ph="..." />
-            <marker date="1536238713603" expanded="true" signature="5188:5193" ph="..." />
-            <marker date="1536238713603" expanded="true" signature="5356:5361" ph="..." />
-            <marker date="1536238713603" expanded="true" signature="6037:6042" ph="..." />
-            <marker date="1536238713603" expanded="true" signature="6556:6600" ph="..." />
-          </folding>
+        <state relative-caret-position="590">
+          <caret line="219" selection-start-line="219" selection-end-line="219" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/backweb/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+        <state relative-caret-position="475">
+          <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/web/images/t02.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/web/images/index2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/backweb/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+        <state relative-caret-position="525">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backweb/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/backweb/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="113" selection-start-line="113" selection-end-line="113" />
+        <state relative-caret-position="575">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/web/images/girl.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/web/images/5817.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/web/css/about.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="106" column="38" selection-start-line="106" selection-start-column="38" selection-end-line="106" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/web/css/book.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web/gbook.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web/content.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/web/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
         </state>
       </provider>
     </entry>

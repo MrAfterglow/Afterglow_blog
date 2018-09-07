@@ -21,6 +21,8 @@ class Article(models.Model):
     is_learn=models.BooleanField(default=True)
     content=UEditorField(default=True)
     image_url=models.ImageField(upload_to='upload',null=True)
+    #统计recommend文件是否超过3个：
+    recommend_count=models.IntegerField(null=True)
 
 
     atype=models.ForeignKey(AType,null=True)
@@ -57,6 +59,8 @@ class User(models.Model):
 
     class Meta:
         db_table='user'
+
+
 
 
 #markdown编辑器

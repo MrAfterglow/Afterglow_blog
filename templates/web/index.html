@@ -6,21 +6,21 @@
     <div class="blog" data-scroll-reveal="enter top" >
       <figure>
         <ul>
-           <a href="/"><img src="/static/web/images/t01.jpg" ><span></span></a>
+           <a href="/" id="a_img1"><img src="" alt=""><span></span></a>
         </ul>
         <p><a href="/" id="title_1">加载中...</a></p>
         <figcaption id="header_desc_1">加载中...</figcaption>
       </figure>
       <figure>
         <ul>
-          <a href="/"><img src="/static/web/images/t02.jpg"><span></span></a>
+          <a href="/" id="a_img2"><img src="/static/web/images/t02.jpg"><span></span></a>
         </ul>
         <p><a href="/" id="title_2">加载中...</a></p>
         <figcaption id ='header_desc_2'>加载中...</figcaption>
       </figure>
       <figure>
         <ul>
-          <a href="/"><img src="/static/web/images/t03.jpg"><span></span></a>
+          <a href="/" id="a_img3"><img src="/static/web/images/t03.jpg"><span></span></a>
         </ul>
         <p><a href="/" id="title_3">加载中</a></p>
         <figcaption id ='header_desc_3'>加载中</figcaption>
@@ -66,11 +66,16 @@
          success:function (data) {
             all_article=data['data']
             for (var i=1 ; i<4 ;++i) {
-               title_now = '#' + 'title_' + i
-               $(title_now).html(all_article[all_article.length-i].title)
-                    desc_now='#'+'header_desc_'+i
+                title_now = '#' + 'title_' + i
+                    $(title_now).html(all_article[all_article.length-i].title)
+                desc_now='#'+'header_desc_'+i
                     $(desc_now).html(all_article[all_article.length-i].desc)
-
+                console.log(all_article)
+                console.log(all_article[all_article.length-i].image_url)
+                url='/blog/content/?id='+all_article[all_article.length-i].id
+                img_now = '#'+'a_img'+i
+                    $(img_now).attr('href',url)
+                    $(img_now+' img').attr('src',all_article[all_article.length-i].image_url)
 
                 }
 
