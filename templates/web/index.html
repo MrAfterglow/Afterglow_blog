@@ -33,20 +33,38 @@
 
 
                <li>
-                  <time class="cbp_tmtime"><span>08-08</span> <span>2017</span></time>
+        <time class="cbp_tmtime"><span>{{i.oprate_time | date:'Y'}}  </span> <span> {{i.oprate_time | date:'m-d'}}</span></time>
                   <div class="cbp_tmicon"></div>
                   <div class="cbp_tmlabel" data-scroll-reveal="enter right over 1s" >
                      <h2>{{i.title}}</h2>
                       <p><span class="blogpic"><a href="{% url 'blog:content' %}?id={{i.id}}"><img src=" /media/{{i.image_url }}"></a></span>{{i.desc}}</p>
                              <a href="{% url 'blog:content' %}?id={{i.id}}" target="_blank" class="readmore">查看全文</a>
                   </div>
-
                </li>
-
             {% endfor %}
+   </ul>
+          <div class="page">
+        <!--第一页-->
+        <a href="{% url 'blog:index' %}"><<</a>
+        <!--上一页-->
+        {% if all_article.has_previous %}
+        <a href="{% url 'blog:index' %}?page={{all_article.previous_page_number}}"><</a>
+        {% endif %}
+        <!--当前页-->
+        <b>{{all_article.number}}</b>
+        <!--下一页-->
+        {% if all_article.has_next %}
+        <a href="{%url 'blog:index' %}?page={{all_article.next_page_number}}">></a>
+        {% endif %}
+        <!--下几页-->
+        <!--{% for i in page_art.paginator.page_range %}-->
+        <!--<a href="{%url 'blog:dont_stop_learn' %}?page={{i}}&type={{type}}">{{i}}</a>-->
+        <!--{% endfor  %}-->
+    <!--最后一页-->
+    <a title="Total record" href="{%url 'blog:index' %}?page={{all_article.paginator.num_pages}}"><b>>></b> </a>
 
+    </div>
 
-            </ul>
   </div>
 </article>
 

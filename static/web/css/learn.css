@@ -16,7 +16,7 @@
 .cbp_tmtimeline > li { position: relative; }
 .cbp_tmtimeline > li .cbp_tmtime { display: block; width: 100px; padding-right: 30px; position: absolute; margin-left: 20px }
 .cbp_tmtimeline > li .cbp_tmtime span { display: block; text-align: right; }
-.cbp_tmtimeline > li .cbp_tmtime span:first-child { font-size: 14px; color: #bdd0db; }
+.cbp_tmtimeline > li .cbp_tmtime span:first-child { font-size: 14px; color: #2e97c8; }
 .cbp_tmtimeline > li .cbp_tmtime span:last-child { font-size: 22px; color: #3594cb; }
 .cbp_tmtimeline > li .cbp_tmlabel { margin: 0 50px 15px 180px; background: #3594cb; color: #fff; padding: 2em; position: relative; border-radius: 5px; height: 150px; }
 .cbp_tmtimeline > li .cbp_tmlabel h2 { margin-top: 0px; padding: 0 0 10px 0; font-size: 16px; text-shadow: rgba(7, 84, 152, 0.71) 1px 1px 1px; }
