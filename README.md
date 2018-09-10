@@ -36,6 +36,8 @@ This's my blog,use Python_Django ,MySql, restful even more
 
 优化了learn.html中的page分页
 
+### 9.10:
+
 完成了“学无止境“ 板块 ，
 
 完成了“慢生活” 板块 
