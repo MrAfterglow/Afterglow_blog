@@ -40,6 +40,8 @@ This's my blog,use Python_Django ,MySql, restful even more
 
 完成了“学无止境“ 板块 ，
 
+### 9.11:
+
 完成了“慢生活” 板块 
 
 项目大体完成。
