@@ -9,6 +9,10 @@ class AuthMiddleWare(MiddlewareMixin):
     def process_request(self,request):
 
         path=request.path   #这个就是request里面的网页地址
+		#if re.search(r'/static/(\S+)', path):
+		#	return None
+		#if re.search(r'/media/(\S+)', path):
+		#	return None
         if re.match(r'/backweb/(\S+)', path):
             if path=='/backweb/my_login/' :
                 return None #当 当前地址就是login的时候，说明已近验证过下面两条，都不符合，需要登录了。

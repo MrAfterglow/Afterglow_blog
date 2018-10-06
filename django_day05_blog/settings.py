@@ -25,7 +25,7 @@ SECRET_KEY = 'ff0wi%l6-k-sk!g#jj30jc*422@!ryu0rdt9x6g2euaxy2x7ti'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -46,7 +46,7 @@ MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    # 'django.middleware.csrf.CsrfViewMiddleware',
+    #'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
@@ -84,7 +84,7 @@ DATABASES = {
         'USER':'root',
         'PASSWORD':'123456',
         'HOST':'132.232.37.25',
-        # 'HOST':'127.0.0.1',
+        #'HOST':'127.0.0.1',
         'PORT':3306 ,
     }
 }
@@ -137,6 +137,7 @@ STATICFILES_DIRS= [
 #媒体路径：新建文件夹media
 MEDIA_URL='/media/'
 MEDIA_ROOT=os.path.join(BASE_DIR,'media')
+
 
 REST_FRAMEWORK={
     'DEFAULT_RENDERER_CLASSES':(
