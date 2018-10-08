@@ -43,7 +43,7 @@ def dont_stop_learn(request):
     if request.method=="GET":
         type =int(request.GET.get('type',0))
         if type==0 or type==None:
-            type_article=Article.objects.filter(atype !=5, is_read=True).order_by('-id')
+            type_article=Article.objects.filter(is_read=True).order_by('-id')
         elif type== 1:
             type_article = Article.objects.filter(atype=1,is_read=True).order_by('-id')
         elif type== 2:
