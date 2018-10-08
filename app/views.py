@@ -26,7 +26,7 @@ def index(request):
     if request.method=="GET":
         article=Article.objects.filter(is_read=True).order_by('-id')
         now_page = int(request.GET.get('page', 1))
-        paginator = Paginator(article,1)
+        paginator = Paginator(article,10)
         all_article = paginator.page(now_page)
         return render(request,'web/index.html',{'all_article':all_article})
 
@@ -42,8 +42,8 @@ def mumble(request):
 def dont_stop_learn(request):
     if request.method=="GET":
         type =int(request.GET.get('type',0))
-        if type==0:
-            type_article=Article.objects.filter( atype =1 or 2 or 3 or 4, is_read=True).order_by('-id')
+        if type==0 or type==None:
+            type_article=Article.objects.filter(atype !=5, is_read=True).order_by('-id')
         elif type== 1:
             type_article = Article.objects.filter(atype=1,is_read=True).order_by('-id')
         elif type== 2:
@@ -54,7 +54,7 @@ def dont_stop_learn(request):
             type_article = Article.objects.filter(atype=4,is_read=True).order_by('-id')
 
         now_page = int(request.GET.get('page',1))
-        paginator = Paginator(type_article,5)
+        paginator = Paginator(type_article,10)
         page_art = paginator.page(now_page)
 
         return render(request,'web/learn.html',{'page_art':page_art,'type':type})
