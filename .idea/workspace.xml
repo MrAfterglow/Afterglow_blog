@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd7de22f-0480-4856-ba59-0da425866033" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backweb/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DjangoUeditor3" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DjangoUeditor3/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DjangoUeditor3/.idea/other.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/.idea/other.xml" afterDir="false" />
@@ -159,19 +153,6 @@
       <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/templates/ueditor_old.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/templates/ueditor_old.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DjangoUeditor3/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DjangoUeditor3/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backweb/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backweb/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_day05_blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_day05_blog/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/upload/Konachan.com_-_265287_2girls_black_hair_bow_building_clouds_kneehighs_original_ro_Hy2XemW.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/upload/Konachan.com_-_265287_2girls_black_hair_bow_building_clouds_kneehighs_original_ro_taoSdYD.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/upload/Konachan.com_-_265335_2girls_black_hair_kagawa_yuusaku_long_hair_original_pink_ey_Nad3aqj.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/web/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/web/css/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/web/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/web/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/backweb/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/backweb/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/web/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/web/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/web/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/web/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/web/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/web/slow_life.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/web/slow_life.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -341,8 +322,9 @@
           <entry key="book" value="1" />
           <entry key="css" value="6" />
           <entry key="html" value="17" />
+          <entry key="jpeg" value="1" />
           <entry key="jpg" value="1" />
-          <entry key="py" value="23" />
+          <entry key="py" value="24" />
           <entry key="sql" value="7" />
           <entry key="txt" value="2" />
         </counts>
@@ -352,9 +334,9 @@
           <entry key="CSS" value="6" />
           <entry key="Database Element" value="3" />
           <entry key="HTML" value="17" />
-          <entry key="Image" value="1" />
+          <entry key="Image" value="2" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="23" />
+          <entry key="Python" value="24" />
           <entry key="Scratch" value="7" />
           <entry key="UML" value="1" />
         </counts>
@@ -382,13 +364,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/django_day05_blog/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="591">
-              <caret line="81" column="8" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
+            <state relative-caret-position="41">
+              <caret line="68" column="14" lean-forward="true" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/env/blog_env/lib/python3.6/site-packages/pymysql/err.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="52" column="24" lean-forward="true" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/media/upload/222222222222222222.jpeg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -730,12 +726,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/web/images/t02.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/web/images/girl.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/web/images/5817.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1022,10 +1012,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/django_day05_blog/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="81" column="8" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
+        <state relative-caret-position="41">
+          <caret line="68" column="14" lean-forward="true" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/env/blog_env/lib/python3.6/site-packages/pymysql/err.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="52" column="24" lean-forward="true" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/upload/222222222222222222.jpeg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
