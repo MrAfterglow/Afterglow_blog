@@ -2,8 +2,176 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd7de22f-0480-4856-ba59-0da425866033" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backweb/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/.idea/other.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/.idea/other.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/.idea/testrunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/.idea/testrunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DUSite/templates/test2.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DUSite/templates/test2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/adminx.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/adminx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/commands.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/commands.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/addCustomizeButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/addCustomizeButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/addCustomizeCombox.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/addCustomizeCombox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/addCustomizeDialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/addCustomizeDialog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/charts.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/charts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/completeDemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/completeDemo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/customPluginDemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/customPluginDemo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/customToolbarDemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/customToolbarDemo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/customizeDialogPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/customizeDialogPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/customizeToolbarUIDemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/customizeToolbarUIDemo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/editor_api.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/editor_api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/filterRuleDemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/filterRuleDemo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/highlightDemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/highlightDemo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/jqueryCompleteDemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/jqueryCompleteDemo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/jqueryValidation.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/jqueryValidation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/multiDemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/multiDemo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/multiEditorWithOneInstance.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/multiEditorWithOneInstance.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/renderInTable.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/renderInTable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/resetDemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/resetDemo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/sectiondemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/sectiondemo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/server/getContent.ashx" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/server/getContent.ashx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/server/getContent.asp" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/server/getContent.asp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/server/getContent.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/server/getContent.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/server/getContent.php" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/server/getContent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/setWidthHeightDemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/setWidthHeightDemo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/simpleDemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/simpleDemo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/sortableDemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/sortableDemo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/submitFormDemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/submitFormDemo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/textareaDemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/textareaDemo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/uparsedemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/_examples/uparsedemo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/anchor/anchor.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/anchor/anchor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/attachment/attachment.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/attachment/attachment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/attachment/attachment.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/attachment/attachment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/background/background.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/background/background.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/charts/chart.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/charts/chart.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/charts/charts.css" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/charts/charts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/charts/charts.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/charts/charts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/charts/charts.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/charts/charts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/emotion/emotion.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/emotion/emotion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/gmap/gmap.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/gmap/gmap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/help/help.css" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/help/help.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/help/help.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/help/help.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/help/help.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/help/help.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/image/image.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/image/image.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/insertframe/insertframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/insertframe/insertframe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/link/link.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/link/link.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/map/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/map/map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/map/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/map/show.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/music/music.css" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/music/music.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/music/music.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/music/music.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/music/music.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/music/music.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/preview/preview.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/preview/preview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/scrawl/scrawl.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/scrawl/scrawl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/searchreplace/searchreplace.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/searchreplace/searchreplace.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/searchreplace/searchreplace.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/searchreplace/searchreplace.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/snapscreen/snapscreen.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/snapscreen/snapscreen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/spechars/spechars.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/spechars/spechars.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/spechars/spechars.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/spechars/spechars.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/table/edittable.css" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/table/edittable.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/table/edittable.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/table/edittable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/table/edittable.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/table/edittable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/table/edittd.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/table/edittd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/table/edittip.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/table/edittip.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/template/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/template/template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/video/video.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/video/video.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/webapp/webapp.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/webapp/webapp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/wordimage/tangram.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/wordimage/tangram.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/wordimage/wordimage.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/dialogs/wordimage/wordimage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/php/Uploader.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/php/Uploader.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/php/action_crawler.php" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/php/action_crawler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/php/action_list.php" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/php/action_list.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/php/action_upload.php" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/php/action_upload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/php/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/php/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/php/controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/php/controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/themes/default/css/ueditor.css" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/themes/default/css/ueditor.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/themes/default/css/ueditor.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/themes/default/css/ueditor.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/themes/default/dialogbase.css" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/themes/default/dialogbase.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/themes/iframe.css" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/themes/iframe.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/SyntaxHighlighter/shCore.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/SyntaxHighlighter/shCore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/codemirror/codemirror.css" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/codemirror/codemirror.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/codemirror/codemirror.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/codemirror/codemirror.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/adapters/mootools-adapter.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/adapters/mootools-adapter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/adapters/mootools-adapter.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/adapters/mootools-adapter.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/adapters/prototype-adapter.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/adapters/prototype-adapter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/adapters/prototype-adapter.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/adapters/prototype-adapter.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/adapters/standalone-framework.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/adapters/standalone-framework.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/adapters/standalone-framework.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/adapters/standalone-framework.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/highcharts-more.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/highcharts-more.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/highcharts-more.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/highcharts-more.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/highcharts.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/highcharts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/highcharts.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/highcharts.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/modules/annotations.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/modules/annotations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/modules/annotations.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/modules/annotations.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/modules/canvas-tools.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/modules/canvas-tools.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/modules/canvas-tools.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/modules/canvas-tools.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/modules/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/modules/data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/modules/data.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/modules/data.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/modules/drilldown.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/modules/drilldown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/modules/drilldown.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/modules/drilldown.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/modules/exporting.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/modules/exporting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/modules/exporting.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/modules/exporting.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/modules/funnel.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/modules/funnel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/modules/funnel.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/modules/funnel.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/modules/heatmap.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/modules/heatmap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/modules/heatmap.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/modules/heatmap.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/modules/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/modules/map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/modules/map.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/modules/map.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/modules/no-data-to-display.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/modules/no-data-to-display.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/modules/no-data-to-display.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/modules/no-data-to-display.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/themes/dark-blue.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/themes/dark-blue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/themes/dark-green.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/themes/dark-green.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/themes/gray.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/themes/gray.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/themes/grid.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/themes/grid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/themes/skies.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/highcharts/themes/skies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/jquery-1.10.2.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/jquery-1.10.2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/jquery-1.10.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/jquery-1.10.2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/video-js/font/vjs.svg" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/video-js/font/vjs.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/video-js/video-js.css" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/video-js/video-js.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/video-js/video-js.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/video-js/video-js.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/video-js/video.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/video-js/video.dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/video-js/video.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/video-js/video.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.css" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.custom.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.custom.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.flashonly.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.flashonly.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.flashonly.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.flashonly.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.html5only.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.html5only.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.html5only.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.html5only.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.withoutimage.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.withoutimage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.withoutimage.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/webuploader/webuploader.withoutimage.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/zeroclipboard/ZeroClipboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/zeroclipboard/ZeroClipboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/zeroclipboard/ZeroClipboard.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/third-party/zeroclipboard/ZeroClipboard.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/ueditor.all.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/ueditor.all.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/ueditor.all.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/ueditor.all.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/ueditor.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/ueditor.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/ueditor.parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/ueditor.parse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/ueditor.parse.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/static/ueditor/ueditor.parse.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/templates/ueditor_old.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/DjangoUeditor/templates/ueditor_old.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoUeditor3/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoUeditor3/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backweb/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backweb/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day05_blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_day05_blog/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/upload/Konachan.com_-_265287_2girls_black_hair_bow_building_clouds_kneehighs_original_ro_Hy2XemW.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/upload/Konachan.com_-_265287_2girls_black_hair_bow_building_clouds_kneehighs_original_ro_taoSdYD.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/upload/Konachan.com_-_265335_2girls_black_hair_kagawa_yuusaku_long_hair_original_pink_ey_Nad3aqj.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/web/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/web/css/about.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/web/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/web/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/backweb/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/backweb/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/web/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/web/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/web/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/web/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/web/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/web/learn.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/web/learn.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/web/slow_life.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/web/slow_life.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,12 +180,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Afterglow_blog$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1538960883272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Afterglow_blog$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1539792718063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Afterglow_blog$test.coverage" NAME="test Coverage Results" MODIFIED="1539789888844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backweb" />
     <SUITE FILE_PATH="coverage/django_day05_blog$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1536149198449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/django_day05_blog$views.coverage" NAME="views Coverage Results" MODIFIED="1534141663887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backweb" />
   </component>
   <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="SHOW_INTERMEDIATE" value="false" />
     <option name="GROUP_DATA_SOURCES" value="true" />
     <option name="GROUP_SCHEMA" value="true" />
     <option name="GROUP_CONTENTS" value="false" />
@@ -27,7 +196,17 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@132.232.37.25" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@132.232.37.25" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -143,39 +322,58 @@
     <session id="-2012300773">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="1" />
-          <entry key="html" value="9" />
-          <entry key="py" value="8" />
-          <entry key="txt" value="1" />
+          <entry key="DATABASE/554df6a3-f19a-4f9a-b7e8-760a285097d2" value="1" />
+          <entry key="auth_group" value="1" />
+          <entry key="auth_group_permissions" value="1" />
+          <entry key="book" value="1" />
+          <entry key="css" value="6" />
+          <entry key="html" value="17" />
+          <entry key="jpg" value="1" />
+          <entry key="py" value="23" />
+          <entry key="sql" value="7" />
+          <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="1" />
-          <entry key="HTML" value="9" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="8" />
+          <entry key="CSS" value="6" />
+          <entry key="Database Element" value="3" />
+          <entry key="HTML" value="17" />
+          <entry key="Image" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="23" />
+          <entry key="Scratch" value="7" />
+          <entry key="UML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="5" />
-          <entry key="html" value="213" />
-          <entry key="py" value="51" />
+          <entry key="Python Console" value="196" />
+          <entry key="css" value="13" />
+          <entry key="html" value="291" />
+          <entry key="py" value="481" />
+          <entry key="txt" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="5" />
-          <entry key="HTML" value="213" />
-          <entry key="Python" value="51" />
+          <entry key="CSS" value="13" />
+          <entry key="HTML" value="291" />
+          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="Python" value="677" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -184,47 +382,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/web/css/about.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1775">
-              <caret line="71" column="60" selection-start-line="71" selection-start-column="60" selection-end-line="71" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/backweb/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backweb/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1325">
-              <caret line="63" column="36" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/web/learn.html">
+        <entry file="file://$PROJECT_DIR$/django_day05_blog/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/web/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="577">
-              <caret line="44" column="8" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+            <state relative-caret-position="591">
+              <caret line="81" column="8" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -232,8 +394,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backweb/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+            <state relative-caret-position="425">
+              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -242,10 +404,26 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requiement.txt">
+        <entry file="file://$PROJECT_DIR$/backweb/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" column="22" selection-start-line="1" selection-end-line="1" selection-end-column="22" />
+            <state relative-caret-position="138">
+              <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+              <folding>
+                <marker date="1539792937132" expanded="true" signature="2291:2541" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backweb/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+                <marker date="1539790387981" expanded="true" signature="73:78" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -264,6 +442,7 @@
     <findStrings>
       <find>textbox</find>
       <find>5817</find>
+      <find>inherit</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -293,40 +472,49 @@
         <option value="$PROJECT_DIR$/django_day05_blog/urls.py" />
         <option value="$PROJECT_DIR$/requiement.txt" />
         <option value="$PROJECT_DIR$/templates/backweb/article_detail.html" />
-        <option value="$PROJECT_DIR$/django_day05_blog/settings.py" />
         <option value="$PROJECT_DIR$/utiles/UserAuthMiddleware.py" />
         <option value="$PROJECT_DIR$/templates/backweb/list_user.html" />
         <option value="$PROJECT_DIR$/backweb/urls.py" />
         <option value="$PROJECT_DIR$/app/app_serializers.py" />
-        <option value="$PROJECT_DIR$/backweb/views.py" />
         <option value="$PROJECT_DIR$/templates/backweb/base.html" />
         <option value="$PROJECT_DIR$/templates/web/content.html" />
-        <option value="$PROJECT_DIR$/static/web/css/base.css" />
         <option value="$PROJECT_DIR$/static/web/css/learn.css" />
-        <option value="$PROJECT_DIR$/templates/web/slow_life.html" />
         <option value="$PROJECT_DIR$/app/urls.py" />
-        <option value="$PROJECT_DIR$/templates/web/base.html" />
-        <option value="$PROJECT_DIR$/backweb/models.py" />
         <option value="$PROJECT_DIR$/app/views.py" />
-        <option value="$PROJECT_DIR$/templates/web/about.html" />
-        <option value="$PROJECT_DIR$/static/web/css/about.css" />
         <option value="$PROJECT_DIR$/templates/backweb/login.html" />
         <option value="$PROJECT_DIR$/templates/backweb/index.html" />
-        <option value="$PROJECT_DIR$/templates/web/index.html" />
         <option value="$PROJECT_DIR$/templates/web/learn.html" />
+        <option value="$PROJECT_DIR$/../SQL_test.py" />
+        <option value="$PROJECT_DIR$/static/web/css/about.css" />
+        <option value="$PROJECT_DIR$/templates/web/index.html" />
+        <option value="$PROJECT_DIR$/static/web/css/base.css" />
+        <option value="$PROJECT_DIR$/templates/web/slow_life.html" />
+        <option value="$PROJECT_DIR$/templates/web/base.html" />
+        <option value="$PROJECT_DIR$/templates/web/about.html" />
+        <option value="$PROJECT_DIR$/templates/backweb/register.html" />
+        <option value="$PROJECT_DIR$/backweb/test.py" />
+        <option value="$PROJECT_DIR$/backweb/models.py" />
+        <option value="$PROJECT_DIR$/backweb/views.py" />
+        <option value="$PROJECT_DIR$/django_day05_blog/settings.py" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="686" />
-    <option name="y" value="8" />
-    <option name="width" value="1225" />
+    <option name="x" value="573" />
+    <option name="y" value="27" />
+    <option name="width" value="1215" />
     <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -337,6 +525,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -357,64 +546,51 @@
             <path>
               <item name="Afterglow_blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="Afterglow_blog" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="django_day05_blog" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Afterglow_blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="Afterglow_blog" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Afterglow_blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="Afterglow_blog" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Afterglow_blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Afterglow_blog" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Afterglow_blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="Afterglow_blog" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="backweb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Afterglow_blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Afterglow_blog" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/文档/wordspace/Afterglow_blog/backweb/models.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\wordspace\django_day05_blog\static\web\images" />
-      <recent name="E:\wordspace\django_day05_blog\static\backweb" />
-      <recent name="E:\wordspace\django_day05_blog\templates\backweb" />
-      <recent name="E:\wordspace\django_day05_blog\templates\web" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\wordspace\Afterglow_blog\static\web\images" />
       <recent name="E:\wordspace\Afterglow_blog\templates\backweb" />
       <recent name="E:\wordspace\django_day05_blog\static\web\images" />
       <recent name="E:\wordspace\django_day05_blog\static\backweb" />
       <recent name="E:\wordspace\django_day05_blog\templates\backweb" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\wordspace\django_day05_blog\static\web\images" />
+      <recent name="E:\wordspace\django_day05_blog\static\backweb" />
+      <recent name="E:\wordspace\django_day05_blog\templates\backweb" />
+      <recent name="E:\wordspace\django_day05_blog\templates\web" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -429,7 +605,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.Unnamed">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python">
       <module name="django_day05_blog" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -452,6 +628,37 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="django_day05_blog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backweb" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backweb/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Unnamed" />
+      <item itemvalue="Python.test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -480,28 +687,31 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.13337022" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.14222468" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Python Console" order="0" weight="0.32790446" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="2" weight="0.32899022" />
-      <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Find" order="4" weight="0.32681867" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.26615554" />
-      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2990249" />
-      <window_info anchor="bottom" id="TODO" order="9" weight="0.3286334" />
-      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="12" visible="true" weight="0.15817985" />
+      <window_info id="DB Browser" order="3" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.32936078" />
+      <window_info anchor="bottom" id="Python Console" order="1" weight="0.32790446" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.32899022" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32681867" />
+      <window_info anchor="bottom" id="Debug" order="6" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.2990249" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.32827735" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="12" weight="0.30552545" />
+      <window_info anchor="bottom" id="Database Changes" order="13" weight="0.32936078" />
+      <window_info anchor="bottom" id="DB Execution Console" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
-      <window_info anchor="right" id="SciView" order="4" />
-      <window_info anchor="right" id="R Graphics" order="5" />
-      <window_info anchor="right" id="R Packages" order="6" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32982844" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3220808" />
+      <window_info anchor="right" id="R Graphics" order="5" weight="0.32982844" />
+      <window_info anchor="right" id="R Packages" order="6" weight="0.32982844" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -520,87 +730,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/web/images/rbg.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/web/images/yu.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/web/images/articlebg.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/web/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="12" column="109" lean-forward="true" selection-start-line="12" selection-start-column="109" selection-end-line="12" selection-end-column="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/web/infopic.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/web/list.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/web/mumble.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/web/share.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/backweb/article_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/backweb/change_article.html" />
-    <entry file="file://$PROJECT_DIR$/templates/backweb/list_user.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1175">
-          <caret line="47" column="88" lean-forward="true" selection-start-line="47" selection-start-column="88" selection-end-line="47" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/env/djenv/Lib/site-packages/rest_framework/mixins.py" />
-    <entry file="file://E:/env/djenv/Lib/site-packages/rest_framework/routers.py" />
-    <entry file="file://E:/env/djenv/Lib/site-packages/rest_framework/generics.py" />
-    <entry file="file://$PROJECT_DIR$/app/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/django_day05_blog/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="87" column="21" lean-forward="true" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/env/djenv/Lib/site-packages/django/conf/urls/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/utiles/UserAuthMiddleware.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utiles/ReturnRenderer.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app_serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/backweb/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/web/images/t02.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -616,49 +745,14 @@
     <entry file="file://$PROJECT_DIR$/templates/web/gbook.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/web/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="699">
-          <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/web/images/index2.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backweb/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/web/css/learn.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/django-teaching-15days/qf_1804/1.django/day14/代码/axf4/templates/market/market.html" />
     <entry file="file://$PROJECT_DIR$/django_day05_blog/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/web/slow_life.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="89" selection-start-line="89" selection-end-line="109" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/web/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="947">
-          <caret line="39" column="8" lean-forward="true" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -682,24 +776,10 @@
     <entry file="file://$PROJECT_DIR$/app/models.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/web/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/web/content.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-130">
           <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
@@ -710,55 +790,240 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/web/css/about.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1775">
-          <caret line="71" column="60" selection-start-line="71" selection-start-column="60" selection-end-line="71" selection-end-column="60" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0f9e2eb6-cefb-4029-beba-020cb7323ef8/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0f9e2eb6-cefb-4029-beba-020cb7323ef8/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="uml://DATABASE/554df6a3-f19a-4f9a-b7e8-760a285097d2">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>554df6a3-f19a-4f9a-b7e8-760a285097d2</OriginalElement>
+          <nodes>
+            <node x="" y="">554df6a3-f19a-4f9a-b7e8-760a285097d2.TABLE:book.auth_group</node>
+            <node x="" y="">554df6a3-f19a-4f9a-b7e8-760a285097d2.TABLE:book.auth_group_permissions</node>
+            <node x="" y="">554df6a3-f19a-4f9a-b7e8-760a285097d2.TABLE:book.auth_user</node>
+            <node x="" y="">554df6a3-f19a-4f9a-b7e8-760a285097d2.TABLE:book.book_content</node>
+            <node x="" y="">554df6a3-f19a-4f9a-b7e8-760a285097d2.TABLE:book.django_session</node>
+            <node x="" y="">554df6a3-f19a-4f9a-b7e8-760a285097d2.TABLE:book.django_admin_log</node>
+            <node x="" y="">554df6a3-f19a-4f9a-b7e8-760a285097d2.TABLE:book.django_content_type</node>
+            <node x="" y="">554df6a3-f19a-4f9a-b7e8-760a285097d2.TABLE:book.django_migrations</node>
+            <node x="" y="">554df6a3-f19a-4f9a-b7e8-760a285097d2.TABLE:book.auth_user_groups</node>
+            <node x="" y="">554df6a3-f19a-4f9a-b7e8-760a285097d2.TABLE:book.book</node>
+            <node x="" y="">554df6a3-f19a-4f9a-b7e8-760a285097d2.TABLE:book.auth_permission</node>
+            <node x="" y="">554df6a3-f19a-4f9a-b7e8-760a285097d2.TABLE:book.auth_user_user_permissions</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.7397610921501706" x="471.0" y="576.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backweb/views.py">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/554df6a3-f19a-4f9a-b7e8-760a285097d2/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://c48a387e-51ef-4a4e-a76a-23199569a521/schema/book/table/book" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c48a387e-51ef-4a4e-a76a-23199569a521/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a7cac8df-46ea-460d-a3b9-e243f22cd074/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7b7243b8-7b67-4778-af9b-e24cebe05d4d/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://b258027c-aa73-4341-b537-6a5424c77c1a/schema/book/table/auth_group">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://b258027c-aa73-4341-b537-6a5424c77c1a/schema/book/table/auth_group_permissions">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b258027c-aa73-4341-b537-6a5424c77c1a/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SQL_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1325">
-          <caret line="63" column="36" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
+        <state relative-caret-position="325">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web/learn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1075">
+          <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/web/css/learn.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/backweb/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="67" column="15" selection-start-line="67" selection-start-column="15" selection-end-line="67" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/web/css/about.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/web/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="33" column="29" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="63" lean-forward="true" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/backweb/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web/slow_life.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="80" column="22" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/backweb/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-480">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/文档/wordspace/Afterglow_blog/backweb/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/backweb/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/env/blog_env/lib/python3.6/site-packages/PIL/ImageGrab.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/upload/22292T539-18.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backweb/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <marker date="1539790387981" expanded="true" signature="73:78" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backweb/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+        <state relative-caret-position="425">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/backweb/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/env/blog_env/lib/python3.6/site-packages/PIL/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/requiement.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="22" selection-start-line="1" selection-end-line="1" selection-end-column="22" />
+        <state relative-caret-position="375">
+          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/backweb/login.html">
+    <entry file="file://$PROJECT_DIR$/backweb/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <state relative-caret-position="138">
+          <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+          <folding>
+            <marker date="1539792937132" expanded="true" signature="2291:2541" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/web/index.html">
+    <entry file="file://$PROJECT_DIR$/django_day05_blog/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="44" column="8" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/web/learn.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+        <state relative-caret-position="591">
+          <caret line="81" column="8" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
         </state>
       </provider>
     </entry>

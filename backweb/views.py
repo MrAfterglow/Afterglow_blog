@@ -9,7 +9,9 @@ from datetime import datetime,timedelta
 from django.urls import reverse
 from markdown import markdown
 from backweb.models import AType, Article, User, Permission, Role
-
+import math
+import os
+from PIL import Image
 
 def login(request):
     if request.method=="GET":
@@ -64,7 +66,18 @@ def addArt(request):
         img=request.FILES.get('img')
 
         Article.objects.create(title=title,desc=desc,atype_id=a_type,content=content,image_url=img)
+        JfzBlogImgThumb(img.name)
         return HttpResponseRedirect(reverse('backweb:index'))
+
+def JfzBlogImgThumb(ImgName):
+    img = 'media/upload/'+ImgName
+    im = Image.open(img)
+    if max(im.size[0], im.size[1]) > 1000:
+        if im.size[0] > im.size[1]:
+            im.thumbnail((1280, 1280))
+        else:
+            im.thumbnail((1000, 1000))
+        im.save('media/upload/'+ImgName,quality=80)
 
 def delArt(request):
     if request.method=="GET":

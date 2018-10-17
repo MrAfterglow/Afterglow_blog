@@ -1,7 +1,7 @@
 @charset "gb2312";
 /* ¹²ÓÃcss */
 * { margin: 0; padding: 0 }
-body { font: 14px "Î¢ÈíÑÅºÚ", Arial, Helvetica, sans-serif;
+body { font: 16px "Î¢ÈíÑÅºÚ", Arial, Helvetica, sans-serif;
     background: url(../images/index.jpg) no-repeat center top #7d461f;
     color: #fff ;
     background-attachment: fixed;}

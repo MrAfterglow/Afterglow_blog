@@ -69,7 +69,7 @@ def content(request):
 def life(request):
     if request.method=="GET":
         life_art=Article.objects.filter(atype=5,is_read=True)
-        now_page = int(request.GET.get('page', 1))
+        now_page  = int(request.GET.get('page', 1))
         paginator = Paginator(life_art,5)
         page_art = paginator.page(now_page)
 
