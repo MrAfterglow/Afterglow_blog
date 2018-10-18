@@ -83,6 +83,10 @@ def delArt(request):
     if request.method=="GET":
         id=request.GET.get('id')
         article=Article.objects.get(id=id)
+        # 删除本地图片
+        img_name = article.image_url
+        os.remove('/home/src/Afterglow_blog/media/'+str(img_name))
+
         article.delete()
         return  HttpResponseRedirect(reverse('backweb:index'))
 
