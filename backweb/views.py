@@ -72,12 +72,12 @@ def addArt(request):
 def JfzBlogImgThumb(ImgName):
     img = 'media/upload/'+ImgName
     im = Image.open(img)
-    if max(im.size[0], im.size[1]) > 1000:
+    if max(im.size[0], im.size[1]) > 400:
         if im.size[0] > im.size[1]:
-            im.thumbnail((1280, 1280))
+            im.thumbnail((384, 384))
         else:
-            im.thumbnail((1000, 1000))
-        im.save('media/upload/'+ImgName,quality=80)
+            im.thumbnail((333, 333))
+        im.save('media/upload/'+ImgName,quality=10)
 
 def delArt(request):
     if request.method=="GET":
@@ -85,8 +85,9 @@ def delArt(request):
         article=Article.objects.get(id=id)
         # 删除本地图片
         img_name = article.image_url
-        os.remove('/home/src/Afterglow_blog/media/'+str(img_name))
-
+        img_attr = '/home/src/Afterglow_blog/media/'+str(img_name)
+        if os.path.exists(img_attr):
+            os.remove(img_attr)
         article.delete()
         return  HttpResponseRedirect(reverse('backweb:index'))
 
