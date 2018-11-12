@@ -1,7 +1,9 @@
 # Afterglow_blog
 This's my blog,use Python_Django ,MySql, restful even more
 
+###11.12 
 
+项目转码云了,github有点慢
 
 ### 7.20日：
 
